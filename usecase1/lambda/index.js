@@ -20,7 +20,7 @@ exports.handler = function (event, context, callback) {
             'S': records[i].Sns.Message
         };
         newData.date = {
-            'S': records[i].Sns.Subject
+            'S': new Date().getTime().toString()
         };
         newData.type = {
             'S': 'Lambda'
