@@ -1,6 +1,6 @@
 # lambda-vs-ec2-cost
 
-Code in this repository is used for comparing cost of lambda and ec2 cost. The study is described in this post [lambda vs ec2 cost](http://www.programmerfort.com/lambda-vs-ec2-cost/)
+Code in this repository is used for comparing cost of lambda and ec2 cost. The study is described in this post [lambda vs ec2 cost](http://www.theabcofcloud.com/lambda-vs-ec2-cost/)
 
 1. Create dynamodb tables with a write capecity of 500
 1.1 ec2-messages
